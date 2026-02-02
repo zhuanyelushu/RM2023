@@ -1,0 +1,12 @@
+/pcd2pgm:
+  ros__parameters:
+    file_directory: /home/nuc/slamibot_Nav-main/  # PCD文件所在目录
+    file_name: test  # PCD文件名（不包含后缀）
+    flag_pass_through: false  # 是否使用Pass Through滤波器
+    map_resolution: 0.05  # 地图分辨率
+    map_topic_name: map  # 发布地图的ROS话题名
+    thre_radius: 0.5  # Radius Outlier滤波器半径
+    thre_z_max: 2.0  # Z轴最大值（用于Pass Through滤波器）
+    thre_z_min: -10.0 # Z轴最小值（用于Pass Through滤波器）
+    thres_point_count: 10  # 最小点数阈值（用于Radius Outlier滤波器）
+    use_sim_time: false  # 是否使用仿真时间
