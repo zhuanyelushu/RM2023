@@ -1,0 +1,11 @@
+<library path="map_tools_plugins">
+  <class name="map_tools/AddWaypointTools" type="map_tools::AddWaypointTools" base_class_type="rviz_common::Tool">
+    <description>add waypoint</description>
+  </class>
+  <class name="map_tools/DeleteWaypointTools" type="map_tools::DeleteWaypointTools" base_class_type="rviz_common::Tool">
+    <description>delete waypoint</description>
+  </class>
+  <class name="map_tools/ShowWaypointsTools" type="map_tools::ShowWaypointsTools" base_class_type="rviz_common::Panel">
+    <description>show waypoints</description>
+  </class>
+</library>
